@@ -214,6 +214,8 @@ main {
     color: #90A3BF;
 }
 
+
+
 .recents-car-color1 {
     color: #1A202C;
     ;
@@ -238,8 +240,6 @@ main {
 .border-large {
     border: solid 1px #afafaf;
 }
-
-
 
 
 
@@ -284,6 +284,17 @@ main {
         background-color: #FFFFFF;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
         z-index: 1;
+    }
+
+    .recents-car {
+        width: 842px;
+    }
+
+    .scrolled {
+        /* width: 50%; */
+        margin-left: 1rem;
+        height: auto;
+        overflow-x: scroll;
     }
 
 }
