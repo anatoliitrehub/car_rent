@@ -22,139 +22,154 @@
 <body>
     <div class="container">
         <div class="row">
-            <header class="col-lg p-0 m-0">
-
-
-                <!-- <div class="col"> -->
-                <div class="nav-bar-top border">
-                    <div class="nav-bar-top-logo">MORENT</div>
-                    <div class="nav-bar-top-search">
-                        <nav class="navbar navbar-light bg-light border rounded-pill bg-white">
-                            <div class="container-fluid">
-
-                                <form class="d-flex">
-                                    <button class="btn " type="submit"><img src="src/img/search_lupa.png" alt=""
-                                            width="30" height="24" class="d-inline-block align-text-top"></button>
-                                    <input class="form-control me-2 border-white" type="search"
-                                        placeholder="Search something here" aria-label="Search something here">
-
-                                </form>
-                                <button class="btn search-filter"><img src="src/img/filterfilter.png" alt="" /></button>
-
+            <header class="col">
+                <div class="row bg-white border">
+                    <!-- <div class="nav-bar-top border"> -->
+                    <div class="col show-mobile">
+                        <div class="row row-cols-2 ">
+                            <div class="col-md col-sm-6 d-flex d-inline justify-content-start ps-3 my-3  mob-menu1">
+                                <img src="src/img/mobmenu.png" alt="">
                             </div>
-                        </nav>
+                            <div
+                                class="col-md col-sm-6 nav-bar-top-user d-flex d-inline justify-content-end pe-3 my-3 ">
+                                <button class="border rounded-circle  user-photo">
+                                    <img src="src/img/Imageuser.png" class=" rounded-circle border" alt="" width=44>
+                                </button>
+                            </div>
 
+                        </div>
                     </div>
-                    <div class="nav-bar-top-icons btn-group justify-content-between">
-                        <button type="button" class="btn btn-outline-primary border rounded-circle likely">
-                            <svg width="20" height="20" viewBox="0 0 20 18" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.44 0.0996094C12.63 0.0996094 11.01 0.979609 10 2.32961C8.99 0.979609 7.37 0.0996094 5.56 0.0996094C2.49 0.0996094 0 2.59961 0 5.68961C0 6.87961 0.19 7.97961 0.52 8.99961C2.1 13.9996 6.97 16.9896 9.38 17.8096C9.72 17.9296 10.28 17.9296 10.62 17.8096C13.03 16.9896 17.9 13.9996 19.48 8.99961C19.81 7.97961 20 6.87961 20 5.68961C20 2.59961 17.51 0.0996094 14.44 0.0996094Z"
-                                    fill="#3D5278" />
-                            </svg>
-                        </button>
+                    <div class="w-100"></div>
 
-
-                        <button type="button"
-                            class="btn btn-outline-primary border rounded-circle position-relative events"><svg
-                                width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M15.3399 12.49L14.3399 10.83C14.1299 10.46 13.9399 9.76 13.9399 9.35V6.82C13.9399 4.47 12.5599 2.44 10.5699 1.49C10.0499 0.57 9.08994 0 7.98994 0C6.89994 0 5.91994 0.59 5.39994 1.52C3.44994 2.49 2.09994 4.5 2.09994 6.82V9.35C2.09994 9.76 1.90994 10.46 1.69994 10.82L0.689943 12.49C0.289943 13.16 0.199943 13.9 0.449943 14.58C0.689943 15.25 1.25994 15.77 1.99994 16.02C3.93994 16.68 5.97994 17 8.01994 17C10.0599 17 12.0999 16.68 14.0399 16.03C14.7399 15.8 15.2799 15.27 15.5399 14.58C15.7999 13.89 15.7299 13.13 15.3399 12.49Z"
-                                    fill="#3D5278" />
-                            </svg><span
-                                class="position-absolute top-50 start-60 translate-middle badge border border-light rounded-circle bg-danger p-1"><span
-                                    class="visually-hidden">unread messages</span></span></button>
-
-
-                        <button type="button" class="btn btn-outline-primary border rounded-circle settings"><svg
-                                width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M18.1 7.22043C16.29 7.22043 15.55 5.94042 16.45 4.37042C16.97 3.46042 16.66 2.30042 15.75 1.78042L14.02 0.790425C13.23 0.320425 12.21 0.600425 11.74 1.39042L11.63 1.58042C10.73 3.15042 9.25 3.15042 8.34 1.58042L8.23 1.39042C7.78 0.600425 6.76 0.320425 5.97 0.790425L4.24 1.78042C3.33 2.30042 3.02 3.47042 3.54 4.38042C4.45 5.94042 3.71 7.22043 1.9 7.22043C0.86 7.22043 0 8.07042 0 9.12042V10.8804C0 11.9204 0.85 12.7804 1.9 12.7804C3.71 12.7804 4.45 14.0604 3.54 15.6304C3.02 16.5404 3.33 17.7004 4.24 18.2204L5.97 19.2104C6.76 19.6804 7.78 19.4004 8.25 18.6104L8.36 18.4204C9.26 16.8504 10.74 16.8504 11.65 18.4204L11.76 18.6104C12.23 19.4004 13.25 19.6804 14.04 19.2104L15.77 18.2204C16.68 17.7004 16.99 16.5304 16.47 15.6304C15.56 14.0604 16.3 12.7804 18.11 12.7804C19.15 12.7804 20.01 11.9304 20.01 10.8804V9.12042C20 8.08042 19.15 7.22043 18.1 7.22043ZM10 13.2504C8.21 13.2504 6.75 11.7904 6.75 10.0004C6.75 8.21042 8.21 6.75042 10 6.75042C11.79 6.75042 13.25 8.21042 13.25 10.0004C13.25 11.7904 11.79 13.2504 10 13.2504Z"
-                                    fill="#3D5278" />
-                            </svg></button>
-                        <!-- <div class="nav-bar-top-icon-item-img"> -->
-
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <h1 class="nav-bar-top-logo m-4 color-w-blue">MORENT</h1>
                     </div>
-                    <div class="nav-bar-top-user">
-                        <button class="border rounded-circle user-photo">
+                    <div class="col-lg-5 col-md col-sm">
+                        <div class="nav-bar-top-search my-3 bg-white">
+                            <nav class="navbar navbar-light bg-light border-large rounded-pill bg-white">
+                                <div class="container-fluid">
 
-                            <img src="src/img/Imageuser.png" class=" rounded-circle border" alt="" width=44 /></button>
+                                    <form class="d-flex">
+                                        <button class="btn " type="submit"><img src="src/img/search_lupa.png" alt=""
+                                                width="30" height="24" class="d-inline-block"></button>
+                                        <input class="form-control border-white" type="search"
+                                            placeholder="Search something here" aria-label="Search something here">
+
+                                    </form>
+                                    <div class="border-mobile">
+                                        <button class="btn search-filter "><img src="src/img/filterfilter.png"
+                                                alt=""></button>
+                                    </div>
+
+                                </div>
+                            </nav>
+
+                        </div>
                     </div>
+                    <div class="col-lg-4 hide-mobile">
+                        <div class="nav-bar-top-icons d-flex justify-content-end my-4">
+                            <button type="button" class="btn btn-outline-primary border rounded-circle likely">
+                                <img src="src/img/Vectorheard.svg" alt="">
 
+                            </button>
+
+
+                            <button type="button"
+                                class="btn btn-outline-primary border rounded-circle position-relative events">
+                                <img src="src/img/Vectorbell.svg" alt="">
+
+                                <span
+                                    class="position-absolute top-50 start-60 translate-middle badge border border-light rounded-circle bg-danger p-1"><span
+                                        class="visually-hidden">unread messages</span></span>
+                            </button>
+
+
+                            <button type="button" class="btn btn-outline-primary border rounded-circle settings">
+                                <img src="src/img/Vectorsettings.svg" alt="" width="21" height="20">
+
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1 hide-mobile">
+                        <div class=" nav-bar-top-user d-flex justify-content-start my-3 ps-0">
+                            <button class="border rounded-circle  user-photo">
+                                <img src="src/img/Imageuser.png" class=" rounded-circle border" alt=""
+                                    width=44 /></button>
+                        </div>
+                    </div>
 
                 </div>
 
-
             </header>
+
+
+
 
             <div class="w-100"></div>
 
-            <!-- <div class="wrap flex-wrap d-flex bd-highlight"> -->
-            <div class="col-lg-3 p-0 m-0">
-                <aside class=" border bg-white">
+            <div class="col-lg-3 p-0 m-0 bg-white border-start">
+                <aside class="left-menu  hide-mobile">
                     <div class="nav-left mt-4 ms-4">
-                        <div class="nav-left-title">
+                        <div class="nav-left-title fw-600">
                             T Y P E
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck1" checked />
                                 <label class="form-check-label" for="flexCheck1">
                                     Sport
-                                    <span class="nav-left-item-sp">(10)</span>
+                                    <span class="nav-left-item-sp fw-500">(10)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck2" checked />
                                 <label class="form-check-label" for="flexCheck2">
                                     SUV
-                                    <span class="nav-left-item-sp">(12)</span>
+                                    <span class="nav-left-item-sp fw-500">(12)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck3" />
                                 <label class="form-check-label" for="flexCheck3">
                                     MPV
-                                    <span class="nav-left-item-sp">(16)</span>
+                                    <span class="nav-left-item-sp fw-500">(16)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck4" />
                                 <label class="form-check-label" for="flexCheck4">
                                     Sedan
-                                    <span class="nav-left-item-sp">(20)</span>
+                                    <span class="nav-left-item-sp fw-500">(20)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck5" />
                                 <label class="form-check-label" for="flexCheck5">
                                     Coupe
-                                    <span class="nav-left-item-sp">(14)</span>
+                                    <span class="nav-left-item-sp fw-500">(14)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck6" />
                                 <label class="form-check-label" for="flexCheck6">
                                     Hatchback
-                                    <span class="nav-left-item-sp">(14)</span>
+                                    <span class="nav-left-item-sp fw-500">(14)</span>
                                 </label>
                             </div>
 
@@ -162,45 +177,45 @@
                     </div>
 
                     <div class="nav-left mt-4 ms-4">
-                        <div class="nav-left-title">
+                        <div class="nav-left-title fw-600">
                             C A P A C I T Y
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck-11" checked />
                                 <label class="form-check-label" for="flexCheck-11">
                                     2 Person
-                                    <span class="nav-left-item-sp">(10)</span>
+                                    <span class="nav-left-item-sp fw-500">(10)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck-12" />
                                 <label class="form-check-label" for="flexCheck-12">
                                     4 Person
-                                    <span class="nav-left-item-sp">(14)</span>
+                                    <span class="nav-left-item-sp fw-500">(14)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck-13" />
                                 <label class="form-check-label" for="flexCheck-13">
                                     6 Person
-                                    <span class="nav-left-item-sp">(12)</span>
+                                    <span class="nav-left-item-sp fw-500">(12)</span>
                                 </label>
                             </div>
 
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheck-14" checked />
                                 <label class="form-check-label" for="flexCheck-14">
                                     8 or More
-                                    <span class="nav-left-item-sp">(16)</span>
+                                    <span class="nav-left-item-sp fw-500">(16)</span>
                                 </label>
                             </div>
 
@@ -209,10 +224,10 @@
                     </div>
 
                     <div class="nav-left mt-4 ms-4">
-                        <div class="nav-left-title">
+                        <div class="nav-left-title fw-600">
                             P R I C E
                         </div>
-                        <div class="nav-left-item d-flex p-2 bd-highlight">
+                        <div class="nav-left-item fw-600 d-flex p-2 bd-highlight">
                             <div class="form">
                                 <input type="range" class="form-range" id="customRange1" min="0" max="100" value="70">
                                 <label for="customRange1" class="form-label">Max. $
@@ -230,35 +245,38 @@
                 <main class="border-white">
 
                     <div class="row p-0 m-0">
-                        <div class="col-lg">
-                            <div class="row">
-                                <div class="col-lg col-sm m-2 rounded-3"><img src="src/img/View_main.png" alt=""
+                        <div class="col-lg col-md">
+                            <div class="row ">
+                                <div class="col-lg col-md col-sm m-2 rounded-3"><img src="src/img/View_main.png" alt=""
                                         class="w-100 view-large">
                                 </div>
                             </div>
-                            <div class="row mx-2">
-                                <div class="col-lg col-sm  mx-2 p-0 rounded-3">
+                            <div class="row row-cols-3 mx-2">
+                                <div class="col-lg col-md col-sm  mx-2 p-0 rounded-3">
                                     <img class="w-100 view-small" src="src/img/View_1.png" alt="" />
                                 </div>
-                                <div class="col-lg col-sm  mx-2 p-0 rounded-3">
+                                <div class="col-lg col-md col-sm  mx-2 p-0 rounded-3">
                                     <img class="w-100 view-small" src="src/img/View_2.png" alt="" />
                                 </div>
-                                <div class="col-lg col-sm mx-2 p-0 rounded-3"><img class="w-100 view-small"
+                                <div class="col-lg col-md col-sm mx-2 p-0 rounded-3"><img class="w-100 view-small"
                                         src="src/img/View_3.png" alt="" /></div>
                             </div>
                         </div>
                         <div class="col-lg col-sm">
                             <div class="row">
                                 <div class="col-lg m-2 rounded-5 bg-white ">
-                                    <div class="position-relative">
-                                        <div class="main-2-label ms-1 my-2">Nissan GT - R</div>
-                                        <svg class="position-absolute top-50 end-0 translate-middle-y me-1 img-likely"
+                                    <div class="row">
+                                        <h1 class="col-10 main-2-label  ms-0 my-2 ">Nissan GT - R</h1>
+                                        <div class="col-2  d-flex  justify-self-end">
+                                            <img src="src/img/likely.svg" alt="" width="20" class="">
+                                        </div>
+                                        <!-- <svg class="position-absolute top-50 end-0 translate-middle-y me-1 img-likely"
                                             width="20" height="18" viewBox="0 0 20 18" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M14.44 0.0996094C12.63 0.0996094 11.01 0.979609 10 2.32961C8.99 0.979609 7.37 0.0996094 5.56 0.0996094C2.49 0.0996094 0 2.59961 0 5.68961C0 6.87961 0.19 7.97961 0.52 8.99961C2.1 13.9996 6.97 16.9896 9.38 17.8096C9.72 17.9296 10.28 17.9296 10.62 17.8096C13.03 16.9896 17.9 13.9996 19.48 8.99961C19.81 7.97961 20 6.87961 20 5.68961C20 2.59961 17.51 0.0996094 14.44 0.0996094Z"
                                                 fill="#ED3F3F" />
-                                        </svg>
+                                        </svg> -->
 
                                     </div>
                                     <div class="stars d-flex">
@@ -268,22 +286,22 @@
                                         <img src="src/img/star_full.png" alt="" class="d-inline-block mx-1 main2-star4">
                                         <img src="src/img/star_empty.png" alt=""
                                             class="d-inline-block mx-1 main2-star5">
-                                        <div class="d-inline-block mx-1 main-2-reviewers">440+ Reviewer</div>
+                                        <div class="d-inline-block mx-1 main-2-reviewers fw-500">440+ Reviewer</div>
                                     </div>
-                                    <div class="main-2-description mx-2 my-3">
+                                    <div class="main-2-description fw-400 mx-2 my-3">
                                         NISMO has become the embodiment of Nissan's outstanding performance, inspired by
                                         the most unforgiving proving ground, the "race track".
                                     </div>
-                                    <div class="row py-4 mx-1">
-                                        <div class="col parameter-name  py-1 ps-0">Type Car</div>
+                                    <div class="row py-3 mx-1">
+                                        <div class="col parameter-name fw-400   py-1 ps-0">Type Car</div>
                                         <div class="col parameter-value py-1 text-end">Sport</div>
 
-                                        <div class="col parameter-name  py-1 ps-2">Capacity</div>
+                                        <div class="col parameter-name fw-400  py-1 ps-2">Capacity</div>
                                         <div class="col parameter-value py-1 text-end">2 Person</div>
                                         <div class="w-100"></div>
-                                        <div class="col parameter-name ps-0 py-1">Steering</div>
+                                        <div class="col parameter-name fw-400 ps-0 py-1">Steering</div>
                                         <div class="col parameter-value py-1 text-end">Manual</div>
-                                        <div class=" col parameter-name py-1 ps-2">Gasoline</div>
+                                        <div class=" col parameter-name fw-400 py-1 ps-2">Gasoline</div>
                                         <div class="col parameter-value py-1 text-end">70L</div>
                                     </div>
                                     <div class="row my-4">
@@ -315,13 +333,13 @@
                                 </div>
                             </div>
 
-                            <div class="row mx-2 my-4">
-                                <div class="col-1 user-foto-review">
+                            <section class="row mx-2 my-4">
+                                <div class="col-lg-1 col-md-2 col-sm-2 col-3 user-foto-review">
                                     <img src="src/img/Profillalex.png" alt="" width=56>
                                 </div>
-                                <div class="col-11 ">
+                                <div class="col-lg-11 col-md-10 col-sm-10 col-9">
                                     <div class="row">
-                                        <div class="col-6  py-2 user-name-review">Alex Stanton</div>
+                                        <h3 class="col-6  py-2 user-name-review">Alex Stanton</h3>
                                         <div class="col-6  py-2 user-date-review text-end">21 July 2022</div>
                                         <div class="w-100"></div>
                                         <div class="col-6  py-2 user-status-review">CEO at Bukalapak</div>
@@ -349,15 +367,15 @@
                                         polite.
                                     </div>
                                 </div>
-                            </div>
+                            </section>
 
-                            <div class="row mx-2 my-4">
-                                <div class="col-1  user-foto-review">
+                            <section class="row mx-2 my-4">
+                                <div class="col-lg-1 col-md-2 col-sm-2 col-3 user-foto-review">
                                     <img src="src/img/Profillskylar.png" alt="" width=56>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-lg-11 col-md-10 col-sm-10 col-9">
                                     <div class="row">
-                                        <div class="col-6  py-2 user-name-review">Skylar Dias</div>
+                                        <h3 class="col-6  py-2 user-name-review">Skylar Dias</h3>
                                         <div class="col-6  py-2 user-date-review text-end">20 July 2022</div>
                                         <div class="w-100"></div>
                                         <div class="col-6  py-2 user-status-review">CEO at Amazon</div>
@@ -385,8 +403,271 @@
                                         polite.
                                     </div>
                                 </div>
+                            </section>
+
+                            <div class="row mx-2 my-4">
+
+                                <div class="col showall-review py-1 text-center"><a href="#"
+                                        class="text-decoration-none text-muted">
+                                        Show All &#709;</a>
+                                </div>
+
                             </div>
                         </div>
+
+                    </div>
+
+                    <div class="row m-3">
+                        <div class="col fw-600 fs-16 recents-car-color2">Recent Car</div>
+                        <div class="col fw-600 fs-16 text-end"><a href="#" class="text-decoration-none ">View All</a>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-3 m-1 recents-car  ">
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10">Koenigsegg</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/likely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">Sport</div>
+                                <div class="col-12 my-4 py-4  d-flex justify-content-center">
+                                    <img src="src/imgcar/CarKoenigsegg.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">90L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">2 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0 align-middle">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $99.00/ <span class=" recents-car-color2 fs-14">days</span>
+
+                                        <!-- <div class="fw-700 recents-car-color2 price-old fs-14">$100.00</div> -->
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10 ">Nissan GT - R</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/unlikely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">Sport</div>
+                                <div class="col-12 my-4 py-4 d-flex justify-content-center">
+                                    <img src="src/imgcar/CarNissan_GT_R.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">80L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">2 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $80.00/ <span class="fw-700 recents-car-color2 fs-14">days</span>
+
+                                        <div class="fw-700 recents-car-color2 price-old fs-14">$100.00</div>
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10 ">Rolls-Royce</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/unlikely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">Sport</div>
+                                <div class="col-12 my-4 py-4  d-flex justify-content-center">
+                                    <img src="src/imgcar/CarRolls_Royce.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">70L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">4 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $96.00/ <span class="fw-700 recents-car-color2 fs-14">days</span>
+
+                                        <div class="fw-700 recents-car-color2 price-old fs-14"></div>
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row m-3">
+                        <div class="col fw-600 fs-16 recents-car-color2">Recomendation Car</div>
+                        <div class="col fw-600 fs-16 text-end"><a href="#" class="text-decoration-none ">View All</a>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-3 mx-1 recents-car my-3 ">
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10 ">All New Rush</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/unlikely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">SUV</div>
+                                <div class="col-12 my-4 py-4 d-flex justify-content-center">
+                                    <img src="src/imgcar/CarAllNewRush.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">70L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">6 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $72.00/ <span class="fw-700 recents-car-color2 fs-14">days</span>
+
+                                        <div class="fw-700 recents-car-color2 price-old fs-14">$80.00</div>
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10 ">CR - V</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/likely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">SUV</div>
+                                <div class="col-12 my-4 py-4 d-flex justify-content-center ">
+                                    <img src="src/imgcar/CarCR_V.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">80L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">6 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $80.00/ <span class="fw-700 recents-car-color2 fs-14">days</span>
+
+                                        <div class="fw-700 recents-car-color2 price-old fs-14"></div>
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col  px-2 mx-0">
+                            <div class="row m-1 p-1 bg-white rounded-5">
+                                <h3 class="col-10 ">All New Terios</h3>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <img src="src/img/unlikely.svg" alt="" width="20">
+                                </div>
+                                <div class="col-12 fs-14 fw-700 recents-car-color2">SUV</div>
+                                <div class="col-12 my-4 py-4 d-flex justify-content-center ">
+                                    <img src="src/imgcar/CarAllNewTerios.png" alt="" class="" height="84">
+                                </div>
+                                <div class="col-3 px-0 ">
+                                    <img src="src/imgcar/gas_station.png" alt="" class=" d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2  d-inline">90L</div>
+                                </div>
+                                <div class="col-4 px-0 ">
+                                    <img src="src/imgcar/Car_steer.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">Manual</div>
+                                </div>
+                                <div class="col-5 px-0 ">
+                                    <img src="src/imgcar/profile_2user.png" alt="" class="d-inline ">
+                                    <div class="fw-500 fs-14 recents-car-color2 d-inline">6 People</div>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="row my-4 px-0 mx-0">
+                                    <div class="col-6 recents-car-color1 fw-700 fs-20 px-0 align-self-center">
+                                        $74.00/ <span class="fw-700 recents-car-color2 fs-14">days</span>
+
+                                        <div class="fw-700 recents-car-color2 price-old fs-14"></div>
+                                    </div>
+                                    <div class="col-6 main-2-price py-2 text-end d-grid col-6 mx-auto">
+                                        <button type="button" class="btn btn-primary btn-lg main-2-btn">Rent
+                                            Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
 
                     </div>
 
@@ -394,15 +675,52 @@
             </div>
 
             <div class="w-100"></div>
-            <div class="col-lg p-0 m-0">
-                <footer class="border">
-                    <div class="bg-white">
-                        footer
+            <div class="col p-0 m-0 bg-white">
+                <footer class="">
+                    <div class="row m-4">
+                        <div class="col-lg-3 col-md col-sm">
+                            <h1 class="color-w-blue">MORENT</h1>
+                            <div class="fs-16 fw-500 color1906">
+                                Our vision is to provide convenience and help increase your sales business.
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md col-sm"></div>
+                        <div class="col-lg-2 col-md col-sm">
+                            <div class="fs-20 fw-600">About</div>
+                            <div class="fs-16 fw-500 py-1 color1906">How it works</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Featured</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Partnership</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Bussiness Relation</div>
+                        </div>
+                        <div class="col-lg-2 col-md col-sm">
+                            <div class="fs-20 fw-600">Community</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Events</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Blog</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Podcast</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Invite a friend</div>
+                        </div>
+
+
+                        <div class="col-lg-2 col-md col-sm">
+                            <div class="fs-20 fw-600 color13">Socials</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Discord</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Instagram</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Twitter</div>
+                            <div class="fs-16 fw-500 py-1 color1906">Facebook</div>
+                        </div>
                     </div>
+
+                    <div class="row m-4 py-4 border-top  fs-16 fw-600 color13">
+                        <div class="col-lg-6 col-md col-sm">©2022 MORENT. All rights reserved</div>
+                        <div class="col-lg-3 col-md col-sm text-end">Privacy & Policy</div>
+                        <div class="col-lg-3 col-md col-sm text-end">Terms & Condition</div>
+                    </div>
+
                 </footer>
             </div>
         </div>
     </div>
+
 
 
     <!-- <script src="jsscripts.js"></script> -->
